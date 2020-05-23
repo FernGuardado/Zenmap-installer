@@ -1,7 +1,7 @@
  #!/bin/sh
  
  #Zenmap script installer
- #NOTE: script might update if nmap decides to 
+ #NOTE: script might update if a new verison of Zenmap comes out 
  
 echo "Simple Zenmap installer"
 echo ""
@@ -27,17 +27,16 @@ else
 	
 	if [ -f "zenmap_7.80-2_all.deb" ];
 	then 
-		
+		dpkg -i zenmap_7.80-2_all.deb
+		echo ""
+
 		if [ -d "/bin/zenmap" ];
 		then
-			dpkg -i zenmap_7.80-2_all.deb
-			echo ""
 			echo "Zenmap has been sucessfully installed"
 			zenmap
 			rm -f zenmap-7.80-1.noarch.rpm
 			rm -f zenmap_7.80-2_all.deb
-		else
-			echo "Zenmap is already installed."
 			exit
+		fi
 	fi
 fi
