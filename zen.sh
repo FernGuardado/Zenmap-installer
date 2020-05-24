@@ -22,20 +22,20 @@ else
 		apt-get install alien	
 	fi
 	
-	wget https://nmap.org/dist/zenmap-7.80-1.noarch.rpm
+	wget https://nmap.org/dist/zenzenmap-7.80-1.noarch.rpm
 	alien zenmap-7.80-1.noarch.rpm
 	dpkg -i zenmap_7.80-2_all.deb
 	
 	if [ -d "/bin/zenmap" ];
 	then
+		echo ""
+		echo "Zenmap was not installed correctly"
+		exit
+	else
 		echo "Zenmap has been sucessfully installed"
 		zenmap
 		rm -f zenmap-7.80-1.noarch.rpm
 		rm -f zenmap_7.80-2_all.deb
-		exit
-	else
-		echo ""
-		echo "Zenmap was not installed correctly"
 		exit
 	fi
 fi
