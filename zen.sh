@@ -24,19 +24,18 @@ else
 	
 	wget https://nmap.org/dist/zenmap-7.80-1.noarch.rpm
 	alien zenmap-7.80-1.noarch.rpm
+	dpkg -i zenmap_7.80-2_all.deb
 	
-	if [ -f "zenmap_7.80-2_all.deb" ];
-	then 
-		dpkg -i zenmap_7.80-2_all.deb
+	if [ -d "/bin/zenmap" ];
+	then
+		echo "Zenmap has been sucessfully installed"
+		zenmap
+		rm -f zenmap-7.80-1.noarch.rpm
+		rm -f zenmap_7.80-2_all.deb
+		exit
+	else
 		echo ""
-
-		if [ -d "/bin/zenmap" ];
-		then
-			echo "Zenmap has been sucessfully installed"
-			zenmap
-			rm -f zenmap-7.80-1.noarch.rpm
-			rm -f zenmap_7.80-2_all.deb
-			exit
-		fi
+		echo "Zenmap was not installed correctly"
+		exit
 	fi
 fi
