@@ -34,8 +34,6 @@ else
 	else
 		echo "Zenmap has been sucessfully installed"
 		zenmap
-		rm -f zenmap-7.80-1.noarch.rpm
-		rm -f zenmap_7.80-2_all.deb
 		exit
 	fi
 fi
