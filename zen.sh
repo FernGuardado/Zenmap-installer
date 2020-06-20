@@ -13,7 +13,7 @@ then
 else
 	if [ -d "/bin/alien" ]; 
 	then
-		echo "Alien is alreay installed"
+		echo "Alien is already installed"
 		echo ""
 	
 	else
@@ -34,6 +34,5 @@ else
 	else
 		echo "Zenmap has been sucessfully installed"
 		zenmap
-		exit
 	fi
 fi
