@@ -25,4 +25,4 @@ On terminal
 3. chmod +x zen.sh
 4. ./zen.sh
 
-if script fails, try using dos2linux before you running the script again (cmd: dos2linux zen.sh).
+if the script fails, try using dos2linux before you running the script again (cmd: dos2linux zen.sh).
