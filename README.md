@@ -15,6 +15,7 @@ Instructions:
 
 Before you start:
 You must be on root
+
 You must install dos2linux (sudo apt-get install dos2linux)
 
 On terminal
