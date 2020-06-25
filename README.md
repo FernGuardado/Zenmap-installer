@@ -15,10 +15,12 @@ Instructions:
 
 Before you start:
 You must be on root
+You must install dos2linux (sudo apt-get install dos2linux)
 
 On terminal
 
 1. git clone https://github.com/FernGuardado/zen-installer.git
 2. cd zen-installer
 3. chmod +x zen.sh
-4. ./zen.sh
+4. dos2linux zen.sh
+5. ./zen.sh
