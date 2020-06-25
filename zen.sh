@@ -1,7 +1,4 @@
- #!/bin/sh
- 
- #Zenmap script installer
- #NOTE: script might update if a new verison of Zenmap comes out 
+ #!/bin/sh 
  
 echo "Simple Zenmap installer"
 echo ""
