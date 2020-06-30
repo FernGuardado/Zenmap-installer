@@ -1,4 +1,4 @@
-# zen-installer
+# Zenmap-installer
 A script that installs zenmap
 
 NOTE: I DO NOT OWN ZENMAP/NMAP, ALL CREDIT GOES TO GORDON "FYODOR" LYON, MAKE SURE YOU CHECK OUT https://nmap.org/ FOR MORE INFO.
