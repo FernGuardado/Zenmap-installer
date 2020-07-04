@@ -20,7 +20,7 @@ if script fails, try installing dos2linux (sudo apt-get install dos2linux)
 
 On terminal
 
-1. git clone https://github.com/FernGuardado/zen-installer.git
+1. git clone https://github.com/FernGuardado/Zenmap-installer.git
 2. cd zen-installer
 3. chmod +x zen.sh
 4. ./zen.sh
