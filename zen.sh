@@ -1,4 +1,4 @@
- #!/bin/sh
+ #!/bin/bash
  
  #Zenmap script installer
  #NOTE: script might update if a new verison of Zenmap comes out 
