@@ -1,6 +1,5 @@
+#!/bin/bash
 
- #!/bin/bash
- 
 echo "Simple Zenmap installer"
 echo ""
 
